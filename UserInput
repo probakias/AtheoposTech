@@ -1,0 +1,23 @@
+package domain;
+
+import java.util.Scanner;
+
+
+public class UserInput {
+	
+
+	 public String Read() {
+        
+		 Scanner keyboard = new Scanner(System.in);
+    
+		 String key = keyboard.nextLine();
+	  keyboard.close();
+         return key;
+ 
+       
+	
+}
+
+	
+
+}
